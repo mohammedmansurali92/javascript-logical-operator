@@ -3,6 +3,8 @@
 		<p id="demo"></p>
 	<script>
 		var marks= prompt("Enter Your Number :");
+		if(marks>100 && marks<0){
+		document.write("Invalid");			  }
 		if(marks >= 80 && marks<=100){
 			document.write("A+");
 		}
